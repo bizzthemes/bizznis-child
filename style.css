@@ -399,6 +399,11 @@ input[type="search"]::-webkit-search-results-button {
 	display: none;
 }
 
+label.screen-reader-text {
+	display: none;
+}
+
+
 /* Tables
 --------------------------------------------- */
 
