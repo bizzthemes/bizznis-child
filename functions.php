@@ -88,7 +88,7 @@ function bizznis_register_social_sanitization_filters() {
 }
 
 //* Register custom settings
-add_action('admin_init', 'bizznis_initialize_theme_options');  
+add_action( 'admin_init', 'bizznis_initialize_theme_options' );  
 function bizznis_initialize_theme_options() {  
     add_settings_section(  
         'general_settings_section',         	// ID used to identify this section and with which to register options  
