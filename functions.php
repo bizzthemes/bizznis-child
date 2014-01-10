@@ -7,12 +7,12 @@
 */
 
 //* This file calls the init.php file inside parent Bizznis theme (do not remove)
-require_once( get_template_directory() . '/lib/init.php' );
+load_template( get_template_directory() . '/lib/init.php' );
 
 //* Child theme (do not remove)
 define( 'CHILD_THEME_NAME', __( 'Bizznis Child Theme', 'bizznis-child' ) );
 define( 'CHILD_THEME_URL', 'https://github.com/bizzthemes/bizznis-child/' );
-define( 'CHILD_THEME_VERSION', '1.0.0' );
+define( 'CHILD_THEME_VERSION', '1.0' );
 
 //* Set Localization (do not remove)
 load_child_theme_textdomain( 'bizznis-child', apply_filters( 'child_theme_textdomain', get_stylesheet_directory() . '/languages', 'bizznis-child' ) );
