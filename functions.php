@@ -69,6 +69,25 @@ add_theme_support( 'custom-background', array(
 	'default-image' => CHILD_URL . '/images/background.png',
 ) );
 
+//* Register sidebar before each single post entry
+bizznis_register_sidebar( array(
+	'id'            => 'before-entry',
+	'name'          => __( 'Before Entry', 'bizznis-child' ),
+	'description'   => __( 'This is a widget area that can be placed before the post entry', 'bizznis-child' ),
+) );
+
+//* Display sidebar before each single post entry
+add_action( 'bizznis_before_entry', 'custom_after_entry_widget' );
+function custom_after_entry_widget() {
+	if ( is_singular( 'post' ) ) {
+		# function that returns sidebar widgets for the registered area
+		bizznis_widget_area( 'before-entry', array(
+			'before' 	=> '<div class="before-entry widget-area">',
+			'after' 	=> '</div>',
+		) );
+	}
+}
+
 //* Add custom settings inside Theme Settings
 add_filter( 'bizznis_theme_settings_defaults', 'bizznis_social_defaults' );
 function bizznis_social_defaults( $defaults ) {
