@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Theme Translation File\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-01-03 20:59+0100\n"
-"PO-Revision-Date: 2014-01-03 20:59+0100\n"
+"POT-Creation-Date: 2014-01-12 22:37+0100\n"
+"PO-Revision-Date: 2014-01-12 22:37+0100\n"
 "Last-Translator: Željan Topić <admin@bizzartic.com>\n"
 "Language-Team: BizzThemes <info@bizzthemes.com>\n"
 "Language: en_US\n"
@@ -28,4 +28,12 @@ msgstr ""
 
 #: functions.php:42
 msgid "Bizznis Child Green Style"
+msgstr ""
+
+#: functions.php:75
+msgid "Before Entry"
+msgstr ""
+
+#: functions.php:76
+msgid "This is a widget area that can be placed before the post entry"
 msgstr ""
