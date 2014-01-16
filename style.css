@@ -1524,26 +1524,26 @@ table.lines {
 	color: #609a31;
 }
 
-button,
-input[type="button"],
-input[type="reset"],
-input[type="submit"],
-.button,
-.entry-content .button,
-.nav-primary,
-.archive-pagination li a:hover,
-.archive-pagination li.active a,
-.footer-widgets,
-.footer-creds {
+.bizznis-child-green button,
+.bizznis-child-green input[type="button"],
+.bizznis-child-green input[type="reset"],
+.bizznis-child-green input[type="submit"],
+.bizznis-child-green .button,
+.bizznis-child-green .entry-content .button,
+.bizznis-child-green .nav-primary,
+.bizznis-child-green .archive-pagination li a:hover,
+.bizznis-child-green .archive-pagination li.active a,
+.bizznis-child-green .footer-widgets,
+.bizznis-child-green .footer-creds {
 	background-color: #287241;
 }
 
-body,
-.author-box,
-.archive-description,
-.sidebar .widget,
-.nav-bizznis-toggle::after,
-.nav-bizznis-toggle ~ .menu-bizznis .sub-menu {
+body.bizznis-child-green,
+.bizznis-child-green .author-box,
+.bizznis-child-green .archive-description,
+.bizznis-child-green .sidebar .widget,
+.bizznis-child-green .nav-bizznis-toggle::after,
+.bizznis-child-green .nav-bizznis-toggle ~ .menu-bizznis .sub-menu {
 	background-color: #f4f9f2;
 }
 
