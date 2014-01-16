@@ -65,6 +65,7 @@ Template Version:	1.0.0
 		- Featured Content
 	Plugins
 		- Gravity Forms
+	External Scripts
 		- Github
 	Theme Colors
 		- Bizznis Child Green
@@ -1505,6 +1506,9 @@ div.gform_wrapper .gform_footer input[type="submit"] {
 	font-size: 14px;
 	font-size: 1.4rem;
 }
+
+/* External Scripts
+------------------------------------------------------------------------------------------------------------------ */
 
 /* Github
 --------------------------------------------- */
